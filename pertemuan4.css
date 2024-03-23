@@ -1,0 +1,76 @@
+/* Resetting default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Title styles */
+  #judul {
+    text-align: center;
+    font-size: 1.2em;
+    color: brown;
+    margin-top: 20px;
+  }
+  
+  /* Table styles */
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: brown;
+    color: white;
+  }
+  
+  /* Image styles */
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Paragraph styles */
+  #op, #member {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Center alignment */
+  .center {
+    text-align: center;
+  }
+  
+  /* Floating element */
+  .sisi {
+    float: left;
+  }
+  
+  /* Center alignment using flexbox */
+  center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Adjusting image size */
+  .love img {
+    max-height: 40px;
+  }
+  
